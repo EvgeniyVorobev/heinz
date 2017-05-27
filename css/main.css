@@ -1,0 +1,480 @@
+@font-face {
+  font-family: '1';
+  src: url("https://static.tildacdn.com/tild3130-3330-4461-b937-363634393265/playfairdisplaybolditalic_allfontru.woff") format("woff");
+  font-weight: 300;
+  font-style: light; }
+
+@font-face {
+  font-family: '2';
+  src: url("https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: '3';
+  src: url("https://static.tildacdn.com/tild6563-3931-4464-a664-383263333638/CirceBold.woff") format("woff");
+  font-weight: 600;
+  font-style: semi-bold; }
+
+@font-face {
+  font-family: '4';
+  src: url("https://static.tildacdn.com/tild3232-6234-4535-a430-636630393535/CirceExtraBold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold; }
+
+@font-face {
+  font-family: '5';
+  src: url("https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff") format("woff");
+  font-weight: 500;
+  font-style: medium; }
+
+@font-face {
+  font-family: 'Circe1';
+  src: url("https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff") format("woff");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Playfair-Bold-Italic';
+  src: url("../fonts/playfairdisplaybolditalic_allfontru.woff") format("woff");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Circe-Bold';
+  src: url("../fonts/Circe-Bold.eot");
+  src: url("../fonts/Circe-Bold.eot?iefix") format("eot"), url("../fonts/Circe-Bold.woff") format("woff"), url("../fonts/Circe-Bold.ttf") format("truetype"), url("../fonts/Circe-Bold.svg#webfont") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Circe-ExtraBold';
+  src: url("../fonts/Circe-ExtraBold.eot");
+  src: url("../fonts/Circe-ExtraBold.eot?iefix") format("eot"), url("../fonts/Circe-ExtraBold.woff") format("woff"), url("../fonts/Circe-ExtraBold.ttf") format("truetype"), url("../fonts/Circe-ExtraBold.svg#webfont") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.navigation_wrapper {
+  position: relative;
+  margin: 25px auto 35px auto;
+  height: 40px;
+  max-width: 1200px;
+  display: flex; }
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 88%; }
+  .nav-menu .nav-menu_item {
+    line-height: 1.55;
+    padding: 0 15px; }
+    .nav-menu .nav-menu_item a {
+      font-family: "Circe-ExtraBold";
+      text-transform: uppercase;
+      font-size: 12px;
+      text-decoration: none;
+      color: #b0b0b0;
+      font-weight: 700; }
+    .nav-menu .nav-menu_item:first-child {
+      margin-right: auto;
+      padding-right: 0px; }
+    .nav-menu .nav-menu_item:last-child {
+      float: right; }
+    .nav-menu .nav-menu_item:nth-child(2) a {
+      color: #e31d1a; }
+
+.img-wrap {
+  padding-left: 15px;
+  display: flex; }
+  .img-wrap img {
+    width: 38px;
+    height: 38px;
+    padding-left: 10px; }
+  .img-wrap a:first-child img {
+    padding-left: 0; }
+
+.main-bgimg {
+  margin: 0 auto;
+  display: block;
+  height: 188px;
+  background: url("../img/header.jpg");
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: solid;
+  opacity: .55;
+  background-color: #ffffff; }
+
+.logo-textimg {
+  position: absolute;
+  top: -190px;
+  z-index: 2;
+  padding-left: 10px; }
+  .logo-textimg img {
+    width: 240px; }
+
+.login-form {
+  display: flex;
+  height: 40px;
+  z-index: 2;
+  position: absolute;
+  top: -200px;
+  right: 1%; }
+  .login-form .user_img {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    z-index: 3;
+    background-image: url("https://static.tildacdn.com/tild3463-6565-4239-a230-393064393737/05e5dfCqjOk.jpg");
+    background-size: cover;
+    background-position: center center; }
+  .login-form .logout_img {
+    margin-left: 10px;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    left: 50px; }
+
+#main-info-section {
+  margin-bottom: 75px; }
+
+.main-info {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1040px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .main-info span {
+    font-family: "Playfair-Bold-Italic";
+    font-size: 22px;
+    color: #e31d1a;
+    padding-bottom: 25px;
+    line-height: 1.55; }
+  .main-info h1 {
+    text-transform: uppercase;
+    font-family: "Circe-ExtraBold";
+    font-size: 42px;
+    line-height: 1.1;
+    padding-bottom: 50px; }
+  .main-info p {
+    font-family: "Circe1";
+    line-height: 1.55;
+    font-size: 18px;
+    line-height: 1.55; }
+
+#product-info-section {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px; }
+
+.product-item {
+  margin-bottom: 75px;
+  display: flex; }
+  .product-item .product-item-left {
+    width: 50%;
+    margin-right: 5px;
+    position: relative; }
+    .product-item .product-item-left .img {
+      max-width: 558px;
+      height: 354px;
+      max-height: 100%;
+      background-image: url("https://static.tildacdn.com/tild6661-6661-4534-b135-646234383566/pexelsphoto.jpeg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+  .product-item .product-item-right {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-height: 354px;
+    width: 50%;
+    margin-left: 5px; }
+    .product-item .product-item-right span {
+      font-family: "Circe-ExtraBold";
+      font-size: 18px;
+      color: #e31d1a;
+      line-height: 1.55; }
+    .product-item .product-item-right h2 {
+      font-size: 40px;
+      font-family: "Circe-ExtraBold";
+      line-height: 1.1; }
+    .product-item .product-item-right p {
+      font-family: "Circe1";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.55; }
+    .product-item .product-item-right .sell-txt p {
+      font-family: "Circe-ExtraBold";
+      padding: 0;
+      font-size: 18px; }
+
+.product-btns {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-family: "Circe-ExtraBold"; }
+  .product-btns p {
+    display: none; }
+  .product-btns a {
+    border-radius: 7px;
+    background-color: #e31d1a;
+    color: #ffffff;
+    width: 45%;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center; }
+  .product-btns a:last-child {
+    background-color: #c7c7c7;
+    color: black;
+    margin-left: 3.5%; }
+
+.sell-txt span {
+  color: #e31d1a; }
+
+.navigation_wrapper {
+  max-width: 1170px; }
+
+.course-txt {
+  display: none; }
+
+/* Media Quaries < 959,639,500 , main 1170px  */
+@media screen and (max-width: 1170px) {
+  #main-info-section {
+    margin-bottom: 50px; }
+  #product-info-section {
+    box-sizing: border-box;
+    padding: 0px 30px;
+    max-width: 1040px; }
+  .product-item .product-item-left .img {
+    height: 300px;
+    max-width: 472px; }
+  .product-item .product-item-right h2 {
+    font-size: 36px; }
+  .product-item .product-item-right p {
+    font-size: 15px; }
+  .navigation_wrapper {
+    max-width: 980px; }
+  .main-info {
+    max-width: 980px; }
+  .sell-txt {
+    position: absolute;
+    right: 0px; } }
+
+@media screen and (max-width: 959px) {
+  .course-txt {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 30px; }
+    .course-txt span {
+      color: #e31d1a;
+      font-size: 18px;
+      font-family: "Circe-ExtraBold";
+      line-height: 1.55;
+      position: relative;
+      bottom: 10px; }
+    .course-txt h2 {
+      color: white;
+      font-size: 36px;
+      font-family: "Circe-ExtraBold";
+      line-height: 1.1; }
+  .sell-txt {
+    display: none; }
+    .sell-txt p {
+      display: none; }
+    .sell-txt span {
+      color: #e31d1a; }
+  .product-btns {
+    justify-content: flex-start; }
+    .product-btns p {
+      display: inline-block;
+      align-self: center;
+      margin-right: auto;
+      font-family: "Circe-ExtraBold" !important;
+      font-size: 20px !important; }
+    .product-btns span {
+      color: #e31d1a; }
+    .product-btns a {
+      max-width: 190px;
+      width: 29%; }
+      .product-btns a:last-child {
+        max-width: 180px; }
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    margin: 25px auto;
+    /*  */
+    align-items: center; }
+    .product-item .product-item-left {
+      width: 100%;
+      margin-right: 0;
+      background-color: black; }
+      .product-item .product-item-left .img {
+        opacity: 0.3;
+        margin: 0 auto;
+        max-width: 620px;
+        height: 169px; }
+    .product-item .product-item-right {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 590px;
+      margin-left: 0;
+      margin-bottom: 25px; }
+      .product-item .product-item-right > p {
+        padding: 35px 0; }
+      .product-item .product-item-right span:first-child {
+        display: none; }
+      .product-item .product-item-right span:only-child {
+        display: inline-block; }
+      .product-item .product-item-right h2 {
+        display: none; }
+  .main-info {
+    max-width: 590px; }
+    .main-info span {
+      padding-bottom: 30px; }
+    .main-info h1 {
+      padding-bottom: 30px; }
+    .main-info p {
+      font-size: 16px;
+      font-family: 'Circe1';
+      color: black;
+      font-weight: 500; }
+  .navigation_wrapper {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    max-width: 640px; }
+  .login-form {
+    right: 5%; }
+  .img-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 640px;
+    top: -130px;
+    right: -5px;
+    position: absolute;
+    z-index: 2; }
+    .img-wrap img {
+      position: relative;
+      left: 86.75%;
+      display: block !important;
+      width: 35px;
+      height: 35px; }
+    .img-wrap a img {
+      padding-left: 0; }
+  .nav-menu {
+    width: 100%; }
+    .nav-menu .nav-menu_item {
+      padding: 5px; }
+      .nav-menu .nav-menu_item:first-child {
+        margin-right: 0; } }
+
+@media screen and (max-width: 639px) {
+  .course-txt {
+    bottom: 30px; }
+    .course-txt h2 {
+      font-size: 30px; }
+    .course-txt span {
+      font-size: 16px; }
+  .product-item .product-item-right > p {
+    padding: 25px 0 10px 25px; }
+  .product-btns {
+    flex-direction: column; }
+    .product-btns a {
+      width: inherit;
+      max-width: 100%;
+      margin: 10px 0px; }
+    .product-btns a:last-child {
+      width: inherit;
+      max-width: 100%;
+      margin: 0; }
+    .product-btns p {
+      padding-left: 25px; }
+  .product-item-right p {
+    margin-bottom: 10px; }
+  #product-info-section {
+    max-width: 450px;
+    padding: 0; }
+  .navigation_wrapper {
+    display: block;
+    margin-bottom: 15px; }
+  .main-info {
+    max-width: 450px; }
+    .main-info span {
+      padding-bottom: 30px; }
+    .main-info h1 {
+      font-size: 32px;
+      padding-bottom: 30px; }
+    .main-info p {
+      font-size: 15px; }
+  .login-form {
+    top: -180px; }
+  .logo-textimg {
+    top: -185px;
+    padding-left: 15px; }
+    .logo-textimg img {
+      width: 180px; }
+  .navigation_wrapper {
+    max-width: 500px; }
+  .nav-menu {
+    height: 40px;
+    margin-top: -20px; }
+    .nav-menu .nav-menu_item a {
+      font-size: 9px; }
+  .img-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px !important;
+    top: -130px;
+    right: 10px; }
+    .img-wrap img {
+      left: 87.75%;
+      width: 30px;
+      height: 30px;
+      display: inline-block; } }
+
+@media screen and (max-width: 500px) {
+  #product-info-section {
+    max-width: 300px; }
+  .product-item .product-item-left {
+    width: 322px; }
+    .product-item .product-item-left .img {
+      height: 270px; }
+  .product-item .product-item-right {
+    min-width: 322px; }
+    .product-item .product-item-right p {
+      padding-left: 12px; }
+  .course-txt {
+    left: 10px;
+    bottom: 65px; }
+  .main-info {
+    max-width: 300px; }
+    .main-info span {
+      padding-bottom: 30px;
+      font-size: 18px; }
+    .main-info h1 {
+      font-size: 24px;
+      padding-bottom: 30px; }
+    .main-info p {
+      font-size: 15px; }
+  .logo-textimg img {
+    width: 180px; }
+  .nav-menu {
+    height: 40px;
+    margin-top: -20px; }
+  .nav-menu .nav-menu_item {
+    padding: 5px 0px; }
+    .nav-menu .nav-menu_item a {
+      font-size: 8px; } }
