@@ -96,7 +96,6 @@
       color: #e31d1a; }
 
 .img-wrap {
-  padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -124,8 +123,7 @@
 .logo-textimg {
   position: absolute;
   top: -190px;
-  z-index: 2;
-  padding-left: 10px; }
+  z-index: 2; }
   .logo-textimg img {
     width: 240px; }
 
@@ -191,7 +189,7 @@
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
-  padding: 0 15px; }
+  padding: 0 10px; }
 
 .product-item {
   margin-bottom: 75px;
@@ -200,10 +198,10 @@
   display: flex; }
   .product-item .product-item-left {
     width: 50%;
-    margin-right: 5px;
+    margin-right: 20px;
     position: relative; }
     .product-item .product-item-left .img {
-      max-width: 558px;
+      max-width: 580px;
       height: 354px;
       max-height: 100%;
       background-image: url("https://static.tildacdn.com/tild6661-6661-4534-b135-646234383566/pexelsphoto.jpeg");
@@ -224,7 +222,7 @@
     flex-direction: column;
     max-height: 354px;
     width: 50%;
-    margin-left: 5px; }
+    margin-left: 20px; }
     .product-item .product-item-right span {
       font-family: "Circe-ExtraBold";
       font-size: 18px;
@@ -300,7 +298,7 @@ footer {
     display: block;
     max-width: 25%; }
     .column-wrapper .column .made-by {
-      line-height: 1.55;
+      line-height: 1.9;
       font-size: 12px;
       font-family: "Circe1";
       font-weight: 500; }
@@ -344,22 +342,25 @@ footer {
   #product-info-section {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0px 30px;
-    max-width: 1040px; }
-  .product-item .product-item-left .img {
-    height: 300px;
-    max-width: 472px; }
-  .product-item .product-item-right h2 {
-    font-size: 36px; }
-  .product-item .product-item-right p {
-    font-size: 15px; }
+    padding: 0px;
+    max-width: 980px; }
+  .product-item {
+    max-width: 980px; }
+    .product-item .product-item-left .img {
+      height: 300px;
+      max-width: 472px; }
+    .product-item .product-item-right h2 {
+      font-size: 36px; }
+    .product-item .product-item-right p {
+      font-size: 15px; }
   .navigation_wrapper {
     max-width: 980px; }
   .main-info {
     max-width: 980px; }
   .sell-txt {
     position: absolute;
-    right: 0px; } }
+    right: 0px;
+    top: 0px; } }
 
 @media screen and (max-width: 959px) {
   .column-wrapper {
@@ -501,7 +502,7 @@ footer {
 
 @media screen and (max-width: 639px) {
   .column-wrapper {
-    max-width: 500px; }
+    max-width: 450px; }
   .course-txt {
     bottom: 30px; }
     .course-txt h2 {
@@ -516,11 +517,13 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column; }
     .product-btns a {
-      width: inherit;
+      -ms-flex-item-align: center;
+      align-self: center;
+      width: 90%;
       max-width: 100%;
       margin: 10px 0px; }
     .product-btns a:last-child {
-      width: inherit;
+      width: 90%;
       max-width: 100%;
       margin: 0; }
     .product-btns p {
@@ -545,8 +548,7 @@ footer {
   .login-form {
     top: -180px; }
   .logo-textimg {
-    top: -185px;
-    padding-left: 15px; }
+    top: -185px; }
     .logo-textimg img {
       width: 180px; }
   .navigation_wrapper {
@@ -583,9 +585,10 @@ footer {
     .column .icons {
       padding: 5px 0; }
   .column-wrapper {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    max-width: 300px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
   .product-item .product-item-left {
     width: 322px; }
     .product-item .product-item-left .img {
