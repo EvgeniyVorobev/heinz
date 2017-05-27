@@ -1,0 +1,67 @@
+.main-info {
+.success-img {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+.btn-mycourses {
+	a {
+		font-family: $font-family-4;
+		margin: 0 auto;
+		display: block;
+		border-radius: 7px;
+		background-color: #e31d1a;
+		color: #ffffff;
+		max-width: 250px;;
+		line-height: 50px;
+		text-decoration: none;
+		text-align: center;
+		font-size: 14px;
+	}
+}
+.fsize {
+	font-size: 40px;
+}
+.accent-red {
+	color:#e31d1a;
+	font-family: $font-family-4;
+	padding: 15px 0 50px 0;
+}
+}
+// Media Quaries
+
+@media screen and (max-width: 1170px) {  // 980px mxw
+
+}
+
+@media screen and (max-width: 959px) { // 620px mxw
+.main-info { 
+ .accent-red {
+ 	padding-bottom: 25px;
+ }
+ .fsize {
+ 	font-size: 26px;
+ 	max-width: 620px;
+ }
+ .success-img {
+ 	padding-top: 20px;
+ }
+}
+}
+
+@media screen and (max-width: 639px) { // 450px mxw
+.main-info { 
+ .fsize {
+ 	max-width: 450px;
+ 	font-size: 26px;
+ }
+ .success-img {
+ 	padding-top: 10px;
+ }
+}
+}
+
+
+@media screen and (max-width: 500px) {
+
+}

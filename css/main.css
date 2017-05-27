@@ -28,6 +28,48 @@
   font-weight: 500;
   font-style: medium; }
 
+.main-info .success-img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto; }
+
+.main-info .btn-mycourses a {
+  font-family: "Circe-ExtraBold";
+  margin: 0 auto;
+  display: block;
+  border-radius: 7px;
+  background-color: #e31d1a;
+  color: #ffffff;
+  max-width: 250px;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px; }
+
+.main-info .fsize {
+  font-size: 40px; }
+
+.main-info .accent-red {
+  color: #e31d1a;
+  font-family: "Circe-ExtraBold";
+  padding: 15px 0 50px 0; }
+
+@media screen and (max-width: 959px) {
+  .main-info .accent-red {
+    padding-bottom: 25px; }
+  .main-info .fsize {
+    font-size: 26px;
+    max-width: 620px; }
+  .main-info .success-img {
+    padding-top: 20px; } }
+
+@media screen and (max-width: 639px) {
+  .main-info .fsize {
+    max-width: 450px;
+    font-size: 26px; }
+  .main-info .success-img {
+    padding-top: 10px; } }
+
 @font-face {
   font-family: 'Circe1';
   src: url("https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff") format("woff");
@@ -40,6 +82,7 @@
 
 @font-face {
   font-family: 'Circe-Bold';
+  font-style: light;
   src: url("../fonts/Circe-Bold.eot");
   src: url("../fonts/Circe-Bold.eot?iefix") format("eot"), url("../fonts/Circe-Bold.woff") format("woff"), url("../fonts/Circe-Bold.ttf") format("truetype"), url("../fonts/Circe-Bold.svg#webfont") format("svg");
   font-weight: bold;
