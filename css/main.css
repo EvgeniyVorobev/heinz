@@ -208,6 +208,8 @@
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat; }
+    .product-item .product-item-left .product02 {
+      background-image: url("https://static.tildacdn.com/tild3866-6338-4736-b830-316237393666/mailservice.jpg"); }
   .product-item .product-item-right {
     position: relative;
     display: -webkit-box;
