@@ -61,12 +61,20 @@
   margin: 25px auto 35px auto;
   height: 40px;
   max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 88%; }
   .nav-menu .nav-menu_item {
@@ -89,6 +97,8 @@
 
 .img-wrap {
   padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .img-wrap img {
     width: 38px;
@@ -120,6 +130,8 @@
     width: 240px; }
 
 .login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 40px;
   z-index: 2;
@@ -136,6 +148,7 @@
     background-position: center center; }
   .login-form .logout_img {
     margin-left: 10px;
+    -ms-flex-item-align: center;
     align-self: center;
     width: 20px;
     height: 20px;
@@ -148,7 +161,12 @@
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1040px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center; }
   .main-info span {
@@ -177,6 +195,8 @@
 
 .product-item {
   margin-bottom: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .product-item .product-item-left {
     width: 50%;
@@ -192,8 +212,15 @@
       background-repeat: no-repeat; }
   .product-item .product-item-right {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     max-height: 354px;
     width: 50%;
@@ -218,7 +245,11 @@
       font-size: 18px; }
 
 .product-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   font-size: 14px;
   font-family: "Circe-ExtraBold"; }
@@ -255,7 +286,11 @@ footer {
 .column-wrapper {
   max-width: 1170px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
   .column-wrapper .about-project a, .column-wrapper .eat a {
     border-bottom: 2px solid #e31d1a; }
@@ -265,7 +300,10 @@ footer {
     display: block;
     max-width: 25%; }
     .column-wrapper .column .made-by {
-      line-height: 1.55; }
+      line-height: 1.55;
+      font-size: 12px;
+      font-family: "Circe1";
+      font-weight: 500; }
       .column-wrapper .column .made-by span:first-child {
         border-bottom: 2px solid #e31d1a; }
       .column-wrapper .column .made-by span:last-child {
@@ -288,6 +326,8 @@ footer {
       color: black;
       font-weight: 500; }
     .column-wrapper .column .icons {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex; }
       .column-wrapper .column .icons img {
         max-width: 25px;
@@ -302,6 +342,7 @@ footer {
   #main-info-section {
     margin-bottom: 50px; }
   #product-info-section {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0px 30px;
     max-width: 1040px; }
@@ -323,8 +364,10 @@ footer {
 @media screen and (max-width: 959px) {
   .column-wrapper {
     max-width: 620px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .column-wrapper .column {
+      -ms-flex-preferred-size: 250px;
       flex-basis: 250px;
       max-width: none;
       padding-bottom: 25px; }
@@ -353,9 +396,12 @@ footer {
     .sell-txt span {
       color: #e31d1a; }
   .product-btns {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start; }
     .product-btns p {
       display: inline-block;
+      -ms-flex-item-align: center;
       align-self: center;
       margin-right: auto;
       font-family: "Circe-ExtraBold" !important;
@@ -368,10 +414,17 @@ footer {
       .product-btns a:last-child {
         max-width: 180px; }
   .product-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     max-width: 620px;
     margin: 25px auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .product-item .product-item-left {
       width: 100%;
@@ -383,7 +436,10 @@ footer {
         max-width: 620px;
         height: 169px; }
     .product-item .product-item-right {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -ms-flex-pack: distribute;
       justify-content: space-around;
       width: 100%;
       max-width: 590px;
@@ -415,7 +471,12 @@ footer {
   .login-form {
     right: 5%; }
   .img-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
     max-width: 640px;
@@ -450,6 +511,9 @@ footer {
   .product-item .product-item-right > p {
     padding: 25px 0 10px 25px; }
   .product-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column; }
     .product-btns a {
       width: inherit;
@@ -493,7 +557,12 @@ footer {
     .nav-menu .nav-menu_item a {
       font-size: 9px; }
   .img-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     max-width: 490px !important;
     top: -130px;
@@ -508,10 +577,14 @@ footer {
   #product-info-section {
     max-width: 300px; }
   .column {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .column .icons {
       padding: 5px 0; }
   .column-wrapper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .product-item .product-item-left {
     width: 322px; }
