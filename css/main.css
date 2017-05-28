@@ -628,7 +628,7 @@ footer {
     .column .icons {
       padding: 5px 0; }
   .column-wrapper {
-    max-width: 300px;
+    max-width: 95%;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start; }
