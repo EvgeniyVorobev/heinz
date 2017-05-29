@@ -13,6 +13,7 @@ $color-accent: #e31d1a ;
 @font-face{font-family:'4';src:url('https://static.tildacdn.com/tild3232-6234-4535-a430-636630393535/CirceExtraBold.woff') format('woff');font-weight:700;font-style:bold}
 @font-face{font-family:'5';src:url('https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff') format('woff');font-weight:500;font-style:medium};
 @import '_succes_payment.scss';
+@import '_about_courses.scss';
 
 @font-face{font-family:'Circe1';src:url('https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff') format('woff');font-weight:500;}
 @font-face{
@@ -192,17 +193,16 @@ $color-accent: #e31d1a ;
 		width:50%;
 		margin-right: 20px;
 		position: relative;
+		border-radius:7px;
 		.img {
 			max-width:580px;
 			height: 354px;
 			max-height:100%;
-			background-image: url("https://static.tildacdn.com/tild6661-6661-4534-b135-646234383566/pexelsphoto.jpeg");
 			background-position: center center;
 			background-size: cover;
 			background-repeat: no-repeat;
 		}	
 		.product02 {
-			background-image: url("https://static.tildacdn.com/tild3866-6338-4736-b830-316237393666/mailservice.jpg");	
 		}
 	}
 	.product-item-right {

@@ -70,6 +70,98 @@
   .main-info .success-img {
     padding-top: 10px; } }
 
+.main-info .pb {
+  padding-bottom: 15px; }
+
+.main-info h2 {
+  font-size: 16px;
+  color: #9e9e9e;
+  padding-bottom: 50px;
+  font-family: "Circe-ExtraBold"; }
+
+.product-item.border-red {
+  border-width: 3px;
+  border-radius: 7px;
+  border: 3px solid #e31d1a;
+  padding: 15px 5px; }
+
+.product-item .product-item-right.space-around {
+  justify-content: space-around;
+  padding: 20px 0; }
+
+.product-item .product-item-right .fsize {
+  font-size: 34px; }
+
+.product-item .product-item-right strong {
+  font-family: "Circe-ExtraBold"; }
+
+.product-item .product-item-left .img.mod1 {
+  border-radius: 7px; }
+
+.product-btns .red_col {
+  margin-left: 0 !important;
+  background-color: #e31d1a !important;
+  color: white !important; }
+
+.text-visibility-on {
+  display: none; }
+  .text-visibility-on p {
+    padding: 35px 0; }
+
+@media screen and (max-width: 1170px) {
+  .product-item .product-item-right {
+    max-height: 380px !important; }
+  .product-item .product-item-left .img.mod1 {
+    height: 380px; } }
+
+@media screen and (max-width: 959px) {
+  .text-visibility-off {
+    display: none; }
+  .text-visibility-on {
+    display: flex; }
+  .main-info {
+    display: block; }
+    .main-info .accent-red {
+      padding-bottom: 25px; }
+    .main-info .fsize {
+      font-size: 26px;
+      max-width: 620px; }
+    .main-info .success-img {
+      padding-top: 20px; }
+    .main-info h2 {
+      max-width: 480px;
+      align-self: center; }
+  .product-item.border-red {
+    padding-bottom: 0; }
+  .product-item .product-item-left .img.mod1 {
+    height: 267px; }
+  .product-item .product-item-right.space-around {
+    margin-bottom: 0;
+    padding-top: 0; }
+  .course-txt.pos-center {
+    top: 40px; } }
+
+@media screen and (max-width: 639px) {
+  .main-info .fsize {
+    max-width: 450px;
+    font-size: 26px; }
+  .main-info .success-img {
+    padding-top: 10px; }
+  .text-visibility-on p {
+    padding: 25px;
+    margin-bottom: 0px !important; } }
+
+@media screen and (max-width: 500px) {
+  .course-txt.pos-center {
+    bottom: 70px; }
+    .course-txt.pos-center h2 {
+      font-size: 24px; }
+  .text-visibility-on p {
+    padding: 25px 12px 25px 12px !important;
+    margin-bottom: 0px !important; }
+  .product-item.border-red {
+    border: none; } }
+
 @font-face {
   font-family: 'Circe1';
   src: url("https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff") format("woff");
@@ -221,17 +313,15 @@
   .product-item .product-item-left {
     width: 50%;
     margin-right: 20px;
-    position: relative; }
+    position: relative;
+    border-radius: 7px; }
     .product-item .product-item-left .img {
       max-width: 580px;
       height: 354px;
       max-height: 100%;
-      background-image: url("https://static.tildacdn.com/tild6661-6661-4534-b135-646234383566/pexelsphoto.jpeg");
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat; }
-    .product-item .product-item-left .product02 {
-      background-image: url("https://static.tildacdn.com/tild3866-6338-4736-b830-316237393666/mailservice.jpg"); }
   .product-item .product-item-right {
     position: relative;
     display: flex;
