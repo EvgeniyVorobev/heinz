@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700i,900i");
 .main-info .success-img {
   width: 70px;
   height: 70px;
@@ -345,7 +344,7 @@
   margin-left: auto;
   margin-right: auto; }
   .scheme-wrap p {
-    font-family: "Playfair Display";
+    font-family: "Playfair-Bold-Italic";
     font-size: 14px;
     text-align: center; }
 
@@ -451,12 +450,11 @@
       font-family: "Circe-ExtraBold"; }
 
 .example-wrapper {
-  max-width: 1170px;
   display: block;
   margin: 0 auto; }
 
 .example-item {
-  width: 25%;
+  width: 30%;
   height: 64px;
   background-color: #e31d1a;
   display: flex;
@@ -525,7 +523,7 @@
     width: 240px; }
   .business-model i {
     display: block;
-    font-family: "Playfair Display";
+    font-family: "Playfair-Bold-Italic";
     font-size: 16px; }
   .business-model hr {
     border: 0;
@@ -578,6 +576,14 @@
   height: 118px;
   border-radius: 50%;
   background: center center / cover no-repeat; }
+
+@media screen and (max-width: 1170px) {
+  .note-wrap {
+    max-width: 880px; }
+  .text-wrap {
+    max-width: 760px; }
+  .scheme-wrap {
+    max-width: 880px; } }
 
 @font-face {
   font-family: 'Circe-ExtraBold';
@@ -732,7 +738,7 @@ li {
   flex-direction: column;
   text-align: center; }
   .main-info span {
-    font-family: "Playfair Display";
+    font-family: "Playfair-Bold-Italic";
     font-size: 22px;
     color: #e31d1a;
     padding-bottom: 25px;

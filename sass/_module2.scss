@@ -362,12 +362,12 @@
 	}
 }
 .example-wrapper {
-	max-width: 1170px;
+	// max-width: 1170px;
 	display: block;
 	margin:0 auto;
 }
 .example-item {
-	width:25%;
+	width:30%;
 	height: 64px;
 	background-color: #e31d1a;;
 	display: flex;
@@ -525,4 +525,40 @@
 	height:118px;
 	border-radius:50%;
 	background: center center / cover no-repeat ;
+}
+
+
+// MEDIQ QUERIES =========*** Wige-wige-wige ***============= //
+
+@media screen and (max-width: 1170px) {  // 980px mxw
+.note-wrap {
+max-width: 880px;
+}
+.text-wrap{
+max-width: 760px;
+}
+.scheme-wrap{
+max-width: 880px;
+}
+
+}
+
+
+
+// 
+
+@media screen and (max-width: 959px) { // 620px mxw
+
+	}
+
+//
+
+@media screen and (max-width: 639px) { // 450px mxw
+
+}
+
+//
+
+@media screen and (max-width: 500px) {
+
 }
