@@ -57,7 +57,8 @@
   padding: 15px 15px; }
 
 .product-item .product-item-right.space-around {
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 20px 0; }
 
 .product-item .product-item-right .fsize {
   font-size: 34px; }
@@ -938,7 +939,7 @@ footer {
       bottom: 10px; }
     .course-txt h2 {
       color: white;
-      font-size: 36px;
+      font-size: 32px;
       font-family: "Circe-ExtraBold";
       line-height: 1.1; }
   .sell-txt {
