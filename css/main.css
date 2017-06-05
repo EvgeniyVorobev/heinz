@@ -775,6 +775,8 @@
       margin: 0 0 20px 0; } }
 
 @media screen and (max-width: 500px) {
+  h2 {
+    font-size: 18px; }
   .note-wrap.img-plus {
     max-width: 320px;
     height: 354px; }
