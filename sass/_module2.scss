@@ -245,6 +245,7 @@
 .scheme {
 	img {
 		max-width: 960px;
+		width: 100%;
 	}
 }
 .h2accent {
@@ -585,7 +586,7 @@
 		}
 	}
 	.text-column-right {
-		max-width: 220px;
+		max-width: 230px;
 		p,strong {
 			font-size: 14px;
 		}
@@ -597,7 +598,7 @@
 	.wrap-large {
 		max-width: 920px;
 		.text-column {
-			margin-left: 80px;
+			margin-left: 70px;
 			.text-column-left {
 				padding-left: 0;
 			}
@@ -638,6 +639,137 @@
 // 
 
 @media screen and (max-width: 959px) { // 620px mxw
+
+
+	.note-wrap {
+		max-width: 680px;
+		.note {
+			padding:40px;
+		}
+		&.img-plus {
+			max-width: 637px;
+
+			.r-block {
+				padding-left: 20px;			
+			}
+			.l-block {
+				align-self: center;
+			}
+			.note {
+				padding: 30px 20px;
+				height: 154px;
+			}
+		}
+	}
+
+	.text-wrap{
+		max-width: 600px;
+		&.wrap-large {
+			.column-right-img_size{
+				max-width: 220px;
+				height: inherit;
+			}
+			.item-img {
+				height:140px;
+			}
+		}
+		.text-column {
+			flex-direction: column;
+		}
+	}
+	.alert-block {
+		.text-wrap {
+			height: 361px;
+		}
+	}
+	.scheme-wrap{
+		max-width: 780px;
+		.scheme img {
+			max-width: 780px;
+		}
+	}
+
+	.text-column-left {
+		max-width: 620px;
+		&.mr {
+			margin-right: 0px;
+		}
+		&.text-column-left_maw {
+			max-width: 600px;
+		}
+	}
+	.text-column-right {
+		max-width: 100%;
+		font-size: 14px;
+		padding-top: 25px;
+		p,strong {
+			font-size: 14px;
+		}
+		&.text-column-right_maw {
+			max-width: 600px;
+		}
+	}
+	.ml {
+		margin-left:0;
+	}
+	.wrap-large {
+		max-width: 600px;
+		.text-column {
+			margin-left: 0px;
+			.text-column-left {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.bgimg-container {
+		max-width: 980px;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+		&.two-blocks{
+			max-width: 600px;
+			.bgimg-item {
+				margin: 0 20px 20px 0;
+				height:198px;
+			}
+			.l-block, .r-block {
+				display:flex;
+				padding-bottom: 20px;
+				.bgimg-item  {
+					max-width: 300px;
+				}
+			}
+			.lower-block {
+				height: 198px;
+			}
+		}
+		.l-block,.r-block {
+			.bgimg-item {
+				max-width: 460px;
+			}
+		}
+
+		.bgimg-item {
+			max-width: 300px;
+			height: 320px;
+			margin: 0 0 20px 0;
+		}
+	}
+	.business-model {
+		flex-direction: column;
+		.item-block {
+			max-width: 600px;
+			width:inherit;
+			padding-bottom: 30px;
+			hr {
+				width: 100%;
+			}
+		}
+	}
+	.business-model-wrapper {
+		max-width: 600px;
+	}
 
 }
 
