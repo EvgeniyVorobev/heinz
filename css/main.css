@@ -705,7 +705,7 @@
     flex-direction: column;
     align-items: center; }
     .bgimg-container.two-blocks {
-      max-width: 600px; }
+      max-width: inherit; }
       .bgimg-container.two-blocks .bgimg-item {
         margin: 0 20px 20px 0;
         height: 198px; }
