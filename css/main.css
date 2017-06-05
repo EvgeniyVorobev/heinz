@@ -685,6 +685,8 @@
     max-width: 100%;
     font-size: 14px;
     padding-top: 25px; }
+    .text-column-right.imgadded .item-img {
+      max-width: 220px; }
     .text-column-right p, .text-column-right strong {
       font-size: 14px; }
     .text-column-right.text-column-right_maw {
@@ -775,8 +777,6 @@
       margin: 0 0 20px 0; } }
 
 @media screen and (max-width: 500px) {
-  h2 {
-    font-size: 18px; }
   .note-wrap.img-plus {
     max-width: 320px;
     height: 354px; }
@@ -792,7 +792,9 @@
     .icon-size.position:first-child {
       top: 0;
       width: 20px;
-      height: 20px; } }
+      height: 20px; }
+  .bgimg-container.two-blocks h2 {
+    font-size: 18px; } }
 
 @font-face {
   font-family: 'Circe-ExtraBold';
