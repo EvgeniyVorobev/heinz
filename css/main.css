@@ -225,6 +225,12 @@
 .ceb {
   font-family: "Circe-ExtraBold"; }
 
+.mb10 {
+  margin-bottom: 10px; }
+
+.mb15 {
+  margin-bottom: 15px; }
+
 .mb25 {
   margin-bottom: 25px; }
 
@@ -267,10 +273,10 @@
 .mt105 {
   margin-top: 105px; }
 
-.mr20 {
+.mr {
   margin-right: 20px; }
 
-.ml20 {
+.ml {
   margin-left: 20px; }
 
 .main-info p.fz16 {
@@ -303,10 +309,12 @@
 
 .note {
   padding: 60px;
-  display: flex; }
+  display: flex;
+  line-height: 30px; }
   .note p {
     font-family: "CRC55";
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 30px; }
   .note strong {
     font-family: "Circe-ExtraBold"; }
 
@@ -390,8 +398,7 @@
     font-family: "CRC55" !important;
     font-size: 15px;
     font-family: '5';
-    font-weight: 500;
-    opacity: 0.7; }
+    font-weight: 500; }
   .text-column-right.imgadded {
     opacity: 1; }
     .text-column-right.imgadded strong {
@@ -411,7 +418,8 @@
 
 .icon_correct {
   width: 30px;
-  position: relative; }
+  position: relative;
+  bottom: 3px; }
 
 .examples {
   display: flex;
@@ -497,7 +505,7 @@
     .bgimg-container .lower-block .fg {
       flex-grow: 2; }
   .bgimg-container .l-block .bgimg-item {
-    width: 560px !important; }
+    width: 560px; }
   .bgimg-container .r-block .bgimg-item {
     width: 560px; }
 
@@ -548,6 +556,7 @@
 .circle {
   position: relative;
   box-sizing: border-box;
+  bottom: 4px;
   display: inline-block;
   color: #ffffff;
   width: 28px;
@@ -567,7 +576,8 @@
   font-size: 18px !important; }
 
 .left-block p, .right-block p {
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 24.3px; }
   .left-block p:first-child, .right-block p:first-child {
     font-size: 20px; }
 
@@ -579,11 +589,58 @@
 
 @media screen and (max-width: 1170px) {
   .note-wrap {
-    max-width: 880px; }
+    max-width: 860px; }
+    .note-wrap .note {
+      padding: 40px; }
+    .note-wrap.img-plus {
+      max-width: 980px; }
   .text-wrap {
-    max-width: 760px; }
+    max-width: 780px; }
+    .text-wrap.wrap-large .column-right-img_size {
+      max-width: 220px;
+      height: inherit; }
+    .text-wrap.wrap-large .item-img {
+      height: 140px; }
+  .alert-block .text-wrap {
+    height: 281px; }
   .scheme-wrap {
-    max-width: 880px; } }
+    max-width: 780px; }
+    .scheme-wrap .scheme img {
+      max-width: 780px; }
+  .text-column-left {
+    max-width: 620px; }
+    .text-column-left.mr {
+      margin-right: 20px; }
+    .text-column-left.text-column-left_maw {
+      max-width: 510px; }
+  .text-column-right {
+    max-width: 220px;
+    font-size: 14px; }
+    .text-column-right p, .text-column-right strong {
+      font-size: 14px; }
+    .text-column-right.text-column-right_maw {
+      max-width: 300px; }
+  .wrap-large {
+    max-width: 920px; }
+    .wrap-large .text-column {
+      margin-left: 80px; }
+      .wrap-large .text-column .text-column-left {
+        padding-left: 0; }
+  .bgimg-container {
+    max-width: 980px;
+    justify-content: space-around; }
+    .bgimg-container.two-blocks .bgimg-item {
+      margin: 0 0 20px 0; }
+    .bgimg-container .l-block .bgimg-item, .bgimg-container .r-block .bgimg-item {
+      max-width: 460px; }
+    .bgimg-container .bgimg-item {
+      max-width: 300px;
+      height: 320px;
+      margin: 0 10px; }
+  .business-model-wrapper {
+    max-width: 920px; }
+    .business-model-wrapper .item-block {
+      max-width: 200px; } }
 
 @font-face {
   font-family: 'Circe-ExtraBold';
@@ -747,7 +804,6 @@ li {
     text-transform: uppercase;
     font-family: "Circe-ExtraBold";
     font-size: 42px;
-    line-height: 1.1;
     padding-bottom: 50px; }
   .main-info p {
     font-family: "CRC55";
@@ -790,8 +846,7 @@ li {
       line-height: 1.55; }
     .product-item .product-item-right h2 {
       font-size: 40px;
-      font-family: "Circe-ExtraBold";
-      line-height: 1.1; }
+      font-family: "Circe-ExtraBold"; }
     .product-item .product-item-right p {
       font-family: "CRC55";
       font-size: 16px;
@@ -946,8 +1001,7 @@ footer {
     .course-txt h2 {
       color: white;
       font-size: 32px;
-      font-family: "Circe-ExtraBold";
-      line-height: 1.1; }
+      font-family: "Circe-ExtraBold"; }
   .sell-txt {
     display: none; }
     .sell-txt p {

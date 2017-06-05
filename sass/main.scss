@@ -68,6 +68,9 @@ h1 {
 	font-size: 42px;
 	font-family: $font-family-4;
 }
+// h3 {
+// 	line-height: 25.74px;
+// }
 p {
 	font-size: 18px;
 }
@@ -195,7 +198,7 @@ li {
 		text-transform: uppercase;
 		font-family: $font-family-4;
 		font-size: 42px;
-		line-height: 1.1;
+		// line-height: 1.1;
 		padding-bottom: 50px;
 	}
 	p {
@@ -250,7 +253,6 @@ li {
 		h2 {
 			font-size: 40px;
 			font-family: $font-family-4;
-			line-height: 1.1;
 		}
 		p {
 			font-family: $font-family-1;
@@ -467,7 +469,7 @@ footer {
 			color:white;
 			font-size: 32px	;
 			font-family: 	$font-family-4;
-			line-height: 1.1;
+			// line-height: 1.1;
 		}
 	}
 	.sell-txt {
