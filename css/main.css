@@ -606,7 +606,7 @@
     text-align: center;
     display: flex;
     color: white;
-    height: 201px; }
+    height: auto !important; }
     .alert-block .text-wrap.mh {
       height: inherit; }
   .alert-block p:first-child {

@@ -369,7 +369,7 @@
 		text-align: center;
 		display: flex;
 		color: white;
-		height: 201px;
+		height:auto !important;
 		&.mh {
 			height: inherit;
 		}
