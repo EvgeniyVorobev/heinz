@@ -1,0 +1,242 @@
+.text-wrap {
+	.lh {
+		line-height: 37.44px;
+	}
+}
+
+.bgimg-container.two-blocks.three-blocks {
+	justify-content: space-around;
+	h2 {
+		line-height: 28px;
+	}
+	.lower-block {
+		max-width: 360px;
+	}
+	.l-block{
+		.bgimg-item {
+			height: 237px;
+			width:inherit;
+			max-width: 360px;
+		}
+	}
+	.r-block{
+		.bgimg-item {
+			height: 237px;
+			width:inherit;
+			max-width: 360px;
+		}
+	}
+}
+
+.text-column-right {
+	&.imgadded {
+		.item-img.size {
+			height:133px;
+			.column-right-img_size {
+				height: inherit;
+			}
+		}
+	}
+}
+
+.img-gallery-wrapper {
+	max-width: 1180px;
+	display: block;
+	margin: 0 auto;
+	.main-img{
+		display:flex;
+		justify-content: center;
+		.item	{
+			background: center center / cover no-repeat;
+			width:100%;
+			height:650px;
+		}
+	}
+	.secondary-img{
+		padding-top: 20px;
+		display:flex;
+		justify-content: space-between;
+		.item{
+			background: center center / cover no-repeat;
+			max-width: 373px;
+			width:100%;
+			height: 246px;
+		}
+	}
+}
+
+
+// MEDIQ QUERIES =========*** Wige-wige-wige ***============= //
+@media screen and (max-width: 1170px) {
+	.text-column-right {
+		&.imgadded {
+			.item-img.size {
+				height:113px;
+				.column-right-img_size {
+					height: inherit;
+				}
+			}
+		}
+	}
+	.bgimg-container.two-blocks.three-blocks {
+		justify-content: space-around;
+		h2 {
+			line-height: 28px;
+		}
+		.lower-block {
+			max-width: 300px;
+			height:180px;
+		}
+		.l-block{
+			.bgimg-item {
+				height: 237px;
+				width:inherit;
+				max-width: 300px;
+			}
+		}
+		.r-block{			  
+			.bgimg-item {
+				height: 237px;
+				width:inherit;
+				max-width: 300px;
+			}
+		}
+	}
+
+	.img-gallery-wrapper {
+		max-width: 960px;
+		.main-img{
+			.item	{
+				width:100%;
+				height:526px;
+			}
+		}
+		.secondary-img{
+			.item{
+				max-width: 300px;
+				height: 198px;
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 959px) { // 620px mxw
+	.bgimg-container.two-blocks.three-blocks {
+		justify-content: space-around;
+		h2 {
+			line-height: 28px;
+		}
+		.lower-block {
+			max-width: 300px;
+			height: 237px;
+		}
+		.l-block{
+			.bgimg-item {
+				height: 237px;
+				width:300px;
+				max-width: 300px;
+			}
+		}
+		.r-block{
+			.bgimg-item {
+				height: 237px;
+				width:300px;
+				max-width: 300px;
+			}
+		}
+	}
+
+	.img-gallery-wrapper {
+		max-width: 600px;
+		.main-img{
+			.item	{
+				width:100%;
+				height:336px;
+			}
+		}
+		.secondary-img{
+			.item{
+				max-width: 193px;
+				height: 127px;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 639px) { // 450px mxw
+	.bgimg-container.two-blocks.three-blocks {
+		.lower-block {
+			height: auto;
+			max-width: 600px;
+			.btn-learn {
+				margin-top: 20px;
+			}
+		}
+		.l-block{
+			padding-bottom: 40px;
+			.bgimg-item {
+				max-width: 600px;
+				width: 100%;
+			}
+		}
+		.r-block{
+			padding-bottom: 40px;
+			width: 100%;
+			.bgimg-item {
+				max-width: 600px;
+				width: 100%;
+			}
+		}
+	}
+
+.img-gallery-wrapper {
+		max-width: 600px;
+		.main-img{
+			.item	{
+				width:100%;
+				height:336px;
+			}
+		}
+		.secondary-img{
+			.item{
+				margin:0 5px;
+				max-width: 193px;
+				height: 127px;
+				&:first-child {
+					margin-left: 0;
+				}
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 500px) { 
+
+.img-gallery-wrapper {
+	max-width: 420px;
+		.main-img{
+			.item	{
+				max-width:100%;
+				height:336px;
+			}
+		}
+		.secondary-img{
+			flex-direction:column;
+			.item{
+				margin:5px 0;
+				max-width:100%;
+				height: 336px;
+				&:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+}
