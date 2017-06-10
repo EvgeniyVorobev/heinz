@@ -1,0 +1,10 @@
+*.sw*
+*~
+*.bat
+*.sh
+*.out.txt
+/dist/demo
+/build
+/node_modules
+/bower_components
+/misc_resources

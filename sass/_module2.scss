@@ -1,4 +1,4 @@
-.text-wrap,.img-gallery-wrapper, .note-wrap, .scheme-wrap, .bgimg-wrapper, .business-model-wrapper {
+.text-wrap, .img-gallery-wrapper, .note-wrap, .scheme-wrap, .bgimg-wrapper, .business-model-wrapper {
 	padding:0 10px;
 }
 
@@ -79,6 +79,9 @@
 }
 .pt10 {
 	padding-top: 10px;
+}
+.pt20 {
+	padding-top: 20px;
 }
 .pt25 {
 	padding-top:25px;
@@ -293,7 +296,7 @@
 		&:last-child {
 			padding-bottom: 0;
 		}
-		padding:20px 0;
+		padding:15px 0;
 	}
 }
 .text-column-right {
@@ -491,7 +494,8 @@
 		margin: 15px 0;
 	}
 	p {
-		font-size: 20px;		
+		font-size: 20px;	
+		line-height: 1.17;	
 	}
 	&.decorations-1 {
 		p {
