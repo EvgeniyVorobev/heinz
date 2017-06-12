@@ -739,7 +739,6 @@
   display: flex; }
 
 .left-block.center-mod {
-  align-self: center;
   padding-right: 40px; }
 
 .right-block.center-mod p {
@@ -816,7 +815,6 @@
 
 @media screen and (max-width: 959px) {
   .left-block.center-mod {
-    align-self: center;
     padding-right: 25px; }
   .circle {
     margin-right: 25px; }
@@ -951,7 +949,6 @@
 
 @media screen and (max-width: 500px) {
   .left-block.center-mod {
-    align-self: center;
     padding-right: 15px; }
   .circle {
     margin-right: 15px; }

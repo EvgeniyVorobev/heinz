@@ -539,7 +539,6 @@
 }
 .left-block {
 	&.center-mod { 
-		align-self:center;
 		padding-right: 40px;
 	}
 }
@@ -672,7 +671,6 @@
 @media screen and (max-width: 959px) { // 620px mxw
 	.left-block {
 	&.center-mod { 
-		align-self:center;
 		padding-right: 25px;
 	}
 }
@@ -896,8 +894,7 @@
 @media screen and (max-width: 500px) {
 	.left-block {
 	&.center-mod { 
-		align-self:center;
-		padding-right: 15px;
+		padding-right: 15px;	
 	}
 }
 	 .circle {
