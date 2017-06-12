@@ -126,6 +126,9 @@ div.juxtapose {
 	max-width:1170px !important;
 	width:100% !important;
 }
+.sm-visible {
+	display:none;
+}
 	// .juctapose-wrapper {
 	// 	max-width: 1170px;
 	// 	margin:0 auto;
@@ -160,6 +163,12 @@ div.juxtapose {
 }
 
 @media screen and (max-width: 959px) { // 620px mxw
+	.sm-visible {
+	display:block;
+}
+.juxtapose {
+	display: none;
+}
 	div.juxtapose {
 	max-width:700px !important;
 	width:100% !important;
