@@ -1,0 +1,142 @@
+.btn-begin.w35 {
+	a {
+		width: 25%;
+	}
+}
+.text-column-left {
+	&.maw860 {
+		max-width: 860px;
+	}
+}
+.text-column-right {
+	&.maw160 {
+		max-width: 160px;
+	}
+}
+.column-right-img-size_2 {
+	max-width: 160px;
+	height:auto;
+}
+.callback-wrapper {
+
+	margin: 75px auto;
+	max-width: 980px;
+	.colums {
+		display:flex;
+		justify-content:space-around;
+	}
+	.left-block {
+		max-width: 460px;
+		width: 100%;
+	}
+	.right-block {
+		max-width: 460px;
+		width: 100%;
+		p {
+			font-size: 15px;
+			font-family: $font-family-2;
+		}
+		input,textarea {	 	
+			box-sizing:border-box;
+			outline:0 ;
+			border:1px solid #c7c7c7; 
+			display: block;
+			margin-bottom: 30px;
+			width:100%;
+			font-size: 16px;
+			font-family: $font-family-5;
+			padding:0 20px;
+		}
+		input {
+			height: 60px;
+			line-height: 60px;
+		}
+		textarea {
+			overflow:hidden;
+			height: 100px;
+			line-height: 20px;
+			padding-top: 20px;
+		}
+		button {
+			box-sizing:border-box;
+			display: block;
+			height: 60px;
+			padding: 0 60px;	 
+			background-color: #e31d1a;
+			color:white;
+			border:0;
+			font-family: $font-family-4;
+			font-size: 16px;
+		}
+	}
+}
+.social-networks {
+	img {
+		max-width: 36px;
+	}
+}
+@media screen and (max-width: 1170px) {
+	.callback-wrapper{
+		max-width: 780px;
+	}
+}
+@media screen and (max-width: 959px) { // 620px mxw
+	.btn-begin.w35 {
+		a {
+			width: 35%;
+		}
+	}
+	.callback-wrapper{
+		max-width: 620px;
+		.right-block{
+			max-width: 100%;
+			button {
+				max-width: 100%;
+			}
+		}
+		.left-block {
+			text-align: center;
+			max-width: 100%;
+		}
+	}
+	.colums {
+		flex-direction:column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 639px) { // 450px mxw
+	.btn-begin.w35 {
+		a {
+			width: 50%;
+		}
+	}
+	.callback-wrapper{
+		max-width: 620px;
+		.right-block{
+			max-width: 100%;
+			button {
+				max-width: 100%;
+				width:100%;
+			}
+			p {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) { 
+	.btn-begin.w35 {
+		a {
+			width: 100%;
+		}
+	}
+	.callback-wrapper{
+		.right-block {
+			p {
+				font-size: 12px;
+			}
+		}
+	}
+}
