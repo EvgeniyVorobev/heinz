@@ -1198,7 +1198,9 @@ div.juxtapose {
 
 @media screen and (max-width: 1170px) {
   .callback-wrapper {
-    max-width: 780px; } }
+    max-width: 780px; }
+    .callback-wrapper .right-block p {
+      font-size: 14px; } }
 
 @media screen and (max-width: 959px) {
   .btn-begin.w35 a {
@@ -1440,7 +1442,8 @@ li {
       line-height: 1.55; }
     .product-item .product-item-right h2 {
       font-size: 40px;
-      font-family: "Circe-ExtraBold"; }
+      font-family: "Circe-ExtraBold";
+      line-height: 1; }
     .product-item .product-item-right p {
       font-family: "CRC55";
       font-size: 16px;

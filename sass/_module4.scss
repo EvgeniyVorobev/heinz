@@ -78,6 +78,11 @@
 @media screen and (max-width: 1170px) {
 	.callback-wrapper{
 		max-width: 780px;
+		.right-block{ 
+			p {
+				font-size: 14px;
+			}
+		}
 	}
 }
 @media screen and (max-width: 959px) { // 620px mxw
