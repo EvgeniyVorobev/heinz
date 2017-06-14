@@ -1,12 +1,102 @@
 .box-modal {
   position: relative;
-  width: 500px;
-  padding: 16px;
-  background: #3c3f41;
-  color: #bbb;
-  font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-  box-shadow: 0 0 0 6px rgba(153, 153, 153, 0.3);
-  border-radius: 6px; }
+  max-width: 438px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px 1px #828282; }
+
+.popup-wrapper {
+  color: black; }
+  .popup-wrapper p {
+    padding-left: 5px;
+    font-size: 16px;
+    opacity: 0.8; }
+    .popup-wrapper p.autorization-txt {
+      font-size: 20px;
+      padding: 15px 0 15px 5px;
+      opacity: 0.8; }
+    .popup-wrapper p.termsofuse {
+      padding-left: 5px;
+      padding-top: 15px;
+      font-size: 14px;
+      text-align: center;
+      opacity: 0.8; }
+      .popup-wrapper p.termsofuse a {
+        color: black; }
+  .popup-wrapper strong {
+    color: #e31d1a; }
+  .popup-wrapper .logo img {
+    max-width: 200px; }
+  .popup-wrapper .form-wrap form {
+    display: flex;
+    justify-content: space-between; }
+  .popup-wrapper .form-wrap input {
+    width: 100%;
+    color: grey;
+    outline: 0;
+    border-color: #e31d1a;
+    border-width: 2px;
+    border-radius: 7px;
+    line-height: 3.3;
+    font-size: 14px;
+    padding: 0 13px;
+    font-family: 'Circe-ExtraBold';
+    border-style: solid;
+    margin-right: 8px; }
+  .popup-wrapper .form-wrap button {
+    width: 85%;
+    color: white;
+    outline: 0;
+    border-color: #e31d1a;
+    background-color: #e31d1a;
+    border-width: 2px;
+    border-radius: 7px;
+    line-height: 3.3;
+    font-size: 14px;
+    padding: 0 13px;
+    font-family: 'Circe-ExtraBold';
+    border-style: solid; }
+  .popup-wrapper .socialnet-reg {
+    display: flex;
+    flex-direction: column;
+    font-family: 'CRC55';
+    color: white;
+    font-size: 16px;
+    text-align: center; }
+    .popup-wrapper .socialnet-reg img {
+      max-width: 20px;
+      position: relative;
+      top: 4px;
+      right: 10px; }
+    .popup-wrapper .socialnet-reg .facebook {
+      margin-bottom: 5px;
+      padding: 13px 0;
+      line-height: 1.55;
+      border-width: 1px;
+      border-radius: 7px;
+      background-color: #425697; }
+    .popup-wrapper .socialnet-reg .vk {
+      margin-bottom: 5px;
+      padding: 13px 0;
+      line-height: 1.55;
+      border-width: 1px;
+      border-radius: 7px;
+      background-color: #57799e; }
+    .popup-wrapper .socialnet-reg .google {
+      margin-bottom: 5px;
+      padding: 13px 0;
+      line-height: 1.55;
+      border-width: 1px;
+      border-radius: 7px;
+      background-color: #dd4b39; }
+    .popup-wrapper .socialnet-reg .twitter {
+      padding: 13px 0;
+      line-height: 1.55;
+      border-width: 1px;
+      border-radius: 7px;
+      background-color: #41acea; }
 
 .box-modal_close {
   position: absolute;
@@ -19,3 +109,40 @@
 
 .box-modal_close:hover {
   color: #6897bb; }
+
+@media screen and (max-width: 1170px) {
+  .popup-wrapper .logo img {
+    max-width: 160px; }
+  .popup-wrapper p {
+    font-size: 15px; }
+    .popup-wrapper p.autorization-txt {
+      font-size: 18px; }
+    .popup-wrapper p.termsofuse {
+      font-size: 14px;
+      text-align: center;
+      opacity: 0.8; }
+  .box-modal {
+    max-width: 416px; } }
+
+@media screen and (max-width: 500px) {
+  .popup-wrapper .logo img {
+    max-width: 140px; }
+  .popup-wrapper p {
+    font-size: 13px; }
+    .popup-wrapper p.autorization-txt {
+      font-size: 14px; }
+    .popup-wrapper p.termsofuse {
+      font-size: 13px;
+      text-align: center;
+      opacity: 0.8; }
+  .popup-wrapper .form-wrap button {
+    font-size: 12px;
+    line-height: 3.6; }
+  .popup-wrapper .form-wrap input {
+    font-size: 12px;
+    line-height: 3.6; }
+  .box-modal {
+    max-width: 320px;
+    padding: 10px; }
+  .arcticmodal-container_i2 {
+    padding: 0; } }
