@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 // ** Modal Windows
 $(document).ready(function(){ // Add Modal Windows.
-	$('body').append(`<div style="display: none;">
+	$('footer').before(`<div style="display: none;">
 				<div class="box-modal" id="reg-popup">
 					<div class="box-modal_close arcticmodal-close"><img src="img/cancel.svg" alt=""></div>
 					<div class="popup">
