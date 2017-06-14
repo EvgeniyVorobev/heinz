@@ -8,3 +8,9 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: top}, 1000);
 	});
 });
+
+// ** Modal Windows
+function regPopup(){ $('#reg-popup').arcticmodal();};
+function regDiscontPopup(){$('#reg_discont_popup').arcticmodal();};
+
+// ** End Modal Windows. **

@@ -6,8 +6,8 @@
 	<title>Школа гастрономического бизнеса</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- /css styles -->
-
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/modals.css">
 </head>
 <body>
 	<header>
@@ -24,11 +24,11 @@
 				<a target="_blank" href="https://telegram.me/mestnayaeda"><img src="img/icon_telegram.jpg" alt=""></a>
 			</div>
 			<nav class="nav-menu">
-				<div class="nav-menu_item"> <a target="_blank" href="http://school.locallocal.ru/">Сайт проекта</a></div>
-				<div class="nav-menu_item"> <a target="_blank" href="index.html">Онлайн-курсы</a></div>
-				<div class="nav-menu_item"> <a target="_blank" href="http://school.locallocal.ru/#ofline">Лекции</a></div>
-				<div class="nav-menu_item"> <a target="_blank" href="http://school.locallocal.ru/#poleznoe">Полезное</a></div>
-				<div class="nav-menu_item"> <a target="_blank" href="http://school.locallocal.ru/#company">Для компаний</a></div>
+				<div class="nav-menu_item"> <a href="http://school.locallocal.ru/">Сайт проекта</a></div>
+				<div class="nav-menu_item"> <a href="index.html">Онлайн-курсы</a></div>
+				<div class="nav-menu_item"> <a href="http://school.locallocal.ru/#ofline">Лекции</a></div>
+				<div class="nav-menu_item"> <a href="http://school.locallocal.ru/#poleznoe">Полезное</a></div>
+				<div class="nav-menu_item"> <a href="http://school.locallocal.ru/#company">Для компаний</a></div>
 			</nav>						
 		</div>
 	</header>
@@ -53,11 +53,11 @@
 					<h2>Как открыть гастрономический бизнес</h2>
 					<p>ГАСТРОНОМИЧЕСКОЕ ОБРАЗОВАНИЕ ОНЛАЙН:<br>Курсы нового формата: схемы запуска фуд-проектов, новые методики создания бизнеса с нуля, разбор реальных кейсов, тренды и прогнозы рынка.</p>
 					<div class="sell-txt">
-						<p>СТОИМОСТЬ: <span>FREE</span></p>
+						<p>СТОИМОСТЬ: <span>2 000 Р</span></p>
 					</div>
 					<div class="product-btns">
-						<p>СТОИМОСТЬ: <span>FREE</span></p>
-						<a target="_blank" href="">КУПИТЬ КУРС</a> <a target="_blank" href="http://school.locallocal.ru/how-open-business">ПОДРОБНЕЕ</a>
+						<p>СТОИМОСТЬ: <span>2 000 Р</span></p>
+						<a onclick="regPopup()">КУПИТЬ КУРС</a> <a href="http://school.locallocal.ru/how-open-business">ПОДРОБНЕЕ</a>
 					</div>
 				</div>
 			</div>
@@ -73,16 +73,36 @@
 						<h2>Как начать своё дело?</h2>
 						<p>ГАСТРОНОМИЧЕСКОЕ ОБРАЗОВАНИЕ ОНЛАЙН:<br>Курсы нового формата: схемы запуска фуд-проектов, новые методики создания бизнеса с нуля, разбор реальных кейсов, тренды и прогнозы рынка.</p>
 						<div class="sell-txt">
-							<p>СТОИМОСТЬ: <span>15 000 Р</span></p>
+							<p>СТОИМОСТЬ: <span>2 000 Р</span></p>
 						</div>
 						<div class="product-btns">
-							<p>СТОИМОСТЬ: <span>15 000 Р</span></p>
-							<a target="_blank" href="">КУПИТЬ КУРС</a> <a target="_blank" href="">ПОДРОБНЕЕ</a>
+							<p>СТОИМОСТЬ: <span>2 000 Р</span></p>
+							<a href="">КУПИТЬ КУРС</a> <a href="">ПОДРОБНЕЕ</a>
 						</div>
 					</div>
 				</div>
 			</section>
+<!-- Popup Windows -->
 
+<div style="display: none;">
+		<div class="box-modal" id="reg-popup">
+			<div class="box-modal_close arcticmodal-close">закрыть</div>
+			<div class="popup">
+				<div class="popup-wrapper">
+					<div class="logo">
+						<img src="img/school-gust-txt.png" alt="">
+					</div>
+					<p></p>
+					<div class="form-wrap">
+					<a href=""></a>
+					<a href=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- End Popup Windows -->
 			<footer>
 				<div class="column-wrapper">
 					<div class="column images">
@@ -92,7 +112,7 @@
 							<a target="_blank" href="https://www.instagram.com/localfoodfest/"><img src="img/icon_instagram.png" alt=""></a>
 							<a target="_blank" href="https://telegram.me/mestnayaeda"><img src="img/icon_telegram.jpg" alt=""></a>
 						</div>
-						<div class="made-by">	© 2017  <a href="index.html"><span>Местная Еда</span></a><br>разработано  <a target="_blank" href="http://svoemedia.ru/tildaweb"><span>SVOEMEDIA</span></a></div>
+						<div class="made-by">	© 2017  <a target="_blank" href="http://locallocal.ru/"><span>Местная Еда</span></a><br>разработано  <a target="_blank" href="http://svoemedia.ru/"><span>SVOEMEDIA</span></a></div>
 					</div>
 					<div class="column subscribe">
 						<a target="_blank" href="#"><strong>ПОДПИСАТЬСЯ</strong></a>
@@ -107,7 +127,7 @@
 							<li>
 								<a target="_blank" href="https://www.facebook.com/KraftHeinzFSru/?fref=ts">KraftHeinz Foodservice</a>
 							</li>
-							<a href="index.html">Местная еда</a>
+							<a target="_blank" href="http://locallocal.ru/">Местная еда</a>
 						</ul>
 					</div>
 					<div class="column eat"><strong>МЕСТНАЯ ЕДА</strong>
@@ -126,6 +146,7 @@
 				</div>
 				<script src="js/jquery-3.2.1.min.js"></script>
 				<script src="js/wow.min.js"></script>
+				<script src="js/jquery.arcticmodal-0.3.min.js"></script>
 				<script src="js/scripts.js"></script>
 			</footer>
 			<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
