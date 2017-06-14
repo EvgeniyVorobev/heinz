@@ -1365,6 +1365,8 @@ li {
   position: absolute;
   top: -200px;
   right: 1%; }
+  .login-form a {
+    display: flex; }
   .login-form .user_img {
     width: 41px;
     height: 41px;
@@ -1462,6 +1464,7 @@ li {
   .product-btns p {
     display: none; }
   .product-btns a {
+    cursor: pointer;
     font-family: "Circe-ExtraBold";
     border-radius: 7px;
     background-color: #e31d1a;
