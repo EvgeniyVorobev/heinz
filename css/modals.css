@@ -1,18 +1,74 @@
 .box-modal {
   position: relative;
-  max-width: 438px;
   box-sizing: border-box;
   padding: 15px;
   background-color: #ffffff;
   border-radius: 6px;
   box-shadow: 1px 1px 10px 1px #828282; }
+  .box-modal.pad-size {
+    padding: 40px;
+    max-width: 760px;
+    width: 100%; }
+
+.header-text {
+  text-align: center; }
+  .header-text .fz-large {
+    font-size: 42px;
+    line-height: 1;
+    opacity: 1; }
+    .header-text .fz-large.fz {
+      font-size: 36px;
+      padding-left: 0; }
+  .header-text br {
+    line-height: 1; }
+
+.subscribe-form form {
+  display: flex;
+  flex-direction: column; }
+  .subscribe-form form input, .subscribe-form form textarea, .subscribe-form form button {
+    font-family: 'crc35';
+    outline: 0;
+    margin-bottom: 15px;
+    padding: 0 20px; }
+  .subscribe-form form input {
+    border-radius: 7px;
+    border-radius: 7px;
+    opacity: 0.75;
+    font-size: 16px;
+    height: 54px;
+    border: 1px solid #c9c9c9; }
+  .subscribe-form form button {
+    color: white;
+    height: 54px;
+    background-color: #e31d1a;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Circe-ExtraBold';
+    font-size: 16px; }
+  .subscribe-form form textarea {
+    opacity: 0.75;
+    font-size: 16px;
+    border: 1px solid #c9c9c9;
+    height: 102px;
+    padding-top: 20px; }
 
 .popup-wrapper {
-  color: black; }
+  color: black;
+  max-width: 438px; }
+  .popup-wrapper.large {
+    max-width: 760px;
+    width: 100%; }
+    .popup-wrapper.large p {
+      padding-left: 0; }
   .popup-wrapper p {
     padding-left: 5px;
     font-size: 16px;
     opacity: 0.8; }
+    .popup-wrapper p:last-child {
+      font-size: 14px; }
+      .popup-wrapper p:last-child.f-size {
+        font-size: 16px;
+        padding-left: 0; }
     .popup-wrapper p.autorization-txt {
       font-size: 20px;
       padding: 15px 0 15px 5px;
@@ -134,38 +190,75 @@
   padding-left: 0; }
 
 @media screen and (max-width: 1170px) {
-  .popup-wrapper .logo img {
-    max-width: 160px; }
-  .popup-wrapper p {
-    font-size: 15px; }
-    .popup-wrapper p.autorization-txt {
-      font-size: 18px; }
-    .popup-wrapper p.termsofuse {
-      font-size: 14px;
-      text-align: center;
-      opacity: 0.8; }
-  .box-modal {
-    max-width: 416px; } }
+  .box-modal.pad-size {
+    padding: 40px;
+    max-width: 620px;
+    width: 100%; }
+  .popup-wrapper {
+    max-width: 416px; }
+    .popup-wrapper .logo img {
+      max-width: 160px; }
+    .popup-wrapper p {
+      font-size: 15px; }
+      .popup-wrapper p.autorization-txt {
+        font-size: 18px; }
+      .popup-wrapper p.termsofuse {
+        font-size: 14px;
+        text-align: center;
+        opacity: 0.8; } }
+
+@media screen and (max-width: 639px) {
+  .box-modal.pad-size {
+    padding: 40px 20px;
+    max-width: 620px;
+    width: 100%; }
+  .header-text {
+    text-align: center; }
+    .header-text .fsize {
+      font-size: 36px; }
+    .header-text .fz-large {
+      font-size: 28px;
+      line-height: 1.1;
+      opacity: 1; }
+      .header-text .fz-large.fz {
+        font-size: 28px; }
+    .header-text br {
+      line-height: 1.1; }
+  .popup-wrapper p:last-child {
+    font-size: 12px; }
+    .popup-wrapper p:last-child.f-size {
+      font-size: 12px; }
+  .subscribe-form form input {
+    height: 46px;
+    font-size: 14px; }
+  .subscribe-form form textarea {
+    height: 102px;
+    font-size: 14px;
+    padding-top: 7px; }
+  .subscribe-form form button {
+    height: 46px;
+    font-size: 14px; } }
 
 @media screen and (max-width: 500px) {
-  .popup-wrapper .logo img {
-    max-width: 140px; }
-  .popup-wrapper p {
-    font-size: 13px; }
-    .popup-wrapper p.autorization-txt {
-      font-size: 14px; }
-    .popup-wrapper p.termsofuse {
-      font-size: 13px;
-      text-align: center;
-      opacity: 0.8; }
-  .popup-wrapper .form-wrap button {
-    font-size: 12px;
-    line-height: 3.6; }
-  .popup-wrapper .form-wrap input {
-    font-size: 12px;
-    line-height: 3.6; }
+  .popup-wrapper {
+    max-width: 320px; }
+    .popup-wrapper .logo img {
+      max-width: 140px; }
+    .popup-wrapper p {
+      font-size: 13px; }
+      .popup-wrapper p.autorization-txt {
+        font-size: 14px; }
+      .popup-wrapper p.termsofuse {
+        font-size: 13px;
+        text-align: center;
+        opacity: 0.8; }
+    .popup-wrapper .form-wrap button {
+      font-size: 12px;
+      line-height: 3.6; }
+    .popup-wrapper .form-wrap input {
+      font-size: 12px;
+      line-height: 3.6; }
   .box-modal {
-    max-width: 320px;
     padding: 10px; }
   .arcticmodal-container_i2 {
     padding: 0; } }

@@ -1245,9 +1245,15 @@ div.juxtapose {
   font-style: normal; }
 
 @font-face {
-  font-family: 'CRC55';
+  font-family: 'crc55';
   src: url("https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff") format("woff");
   font-weight: 500; }
+
+@font-face {
+  font-family: 'crc35';
+  src: url("https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff") format("woff");
+  font-weight: 500;
+  font-style: medium; }
 
 @font-face {
   font-family: 'Circe-Bold';
@@ -1268,12 +1274,6 @@ div.juxtapose {
 @font-face {
   font-family: 'Circe-Thin';
   src: url("../fonts/Circe - Thin/Circe-Thin.ttf"); }
-
-@font-face {
-  font-family: 'crc35';
-  src: url("https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff") format("woff");
-  font-weight: 500;
-  font-style: medium; }
 
 @font-face {
   font-family: 'Playfair-Bold-Italic';
