@@ -17,49 +17,11 @@ $color-table: rgb(20, 142, 99);
 @import '_module2.scss';
 @import '_module3.scss';
 @import '_module4.scss';
-@font-face{
-	font-family: 'Circe-ExtraBold';
-	src: url('../fonts/Circe-ExtraBold.eot');
-	src: url('../fonts/Circe-ExtraBold.eot?iefix') format('eot'),
-	url('../fonts/Circe-ExtraBold.woff') format('woff'),
-	url('../fonts/Circe-ExtraBold.ttf') format('truetype'),
-	url('../fonts/Circe-ExtraBold.svg#webfont') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
-
-@font-face{font-family:'crc55';src:url('https://static.tildacdn.com/tild3139-3332-4562-b038-326631303230/CRC55.woff') format('woff');font-weight:500;}
-@font-face{font-family:'crc35';src:url('https://static.tildacdn.com/tild6537-3963-4237-b738-353362616337/CRC35.woff') format('woff');font-weight:500;font-style:medium};
-
-@font-face {
-font-family: 'Circe-Bold';
-src:url('../fonts/Circe - Bold/Circe-Bold.ttf');
-}
-@font-face {
-font-family: 'Circe-ExtraLight';
-src:url('../fonts/Circe - Extra Light/Circe-ExtraLight.ttf');
-}
-@font-face {
-font-family: 'Circe-Regular';
-src: url('../fonts/Circe - Regular/Circe-Regular.ttf')
-}
-@font-face {
-font-family: 'Circe-Light';
-src:url('../fonts/Circe - Light/Circe-Light.ttf');
-}
-@font-face {
-font-family: 'Circe-Thin';
-src:url('../fonts/Circe - Thin/Circe-Thin.ttf');
-}
-@font-face{
-	font-family: 'Playfair-Bold-Italic';
-	src: url('../fonts/playfairdisplaybolditalic_allfontru.woff') format('woff');
-	font-weight:300;
-}
-// @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700i,900i');
-
-
-
+@font-face{font-family: 'Circe-ExtraBold'; src:url('../fonts/Circe-ExtraBold.woff') format('woff');font-weight: 900;font-style: normal};
+@font-face{font-family:'crc55';src:url('../fonts/CRC55.woff') format('woff');font-weight:500;}
+@font-face{font-family:'crc35';src:url('../fonts/CRC35.woff') format('woff');font-weight:500;font-style:medium};
+@font-face {font-family: 'Circe-Bold';src:url('../fonts/Circe-Bold.woff') format('woff');}
+@font-face{font-family: 'Playfair-Bold-Italic';src: url('../fonts/playfairdisplaybolditalic_allfontru.woff') format('woff');font-weight:300;}
 
 * {
 	margin:0;
@@ -72,9 +34,7 @@ h1 {
 	font-size: 42px;
 	font-family: $font-family-4;
 }
-// h3 {
-// 	line-height: 25.74px;
-// }
+
 p {
 	font-size: 18px;
 }
