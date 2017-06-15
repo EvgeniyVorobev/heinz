@@ -1602,7 +1602,7 @@ footer {
     display: block;
     position: absolute;
     z-index: 3;
-    bottom: 20px;
+    bottom: 70px;
     left: 30px; }
     .course-txt span {
       color: #e31d1a;
@@ -1614,7 +1614,8 @@ footer {
     .course-txt h2 {
       color: white;
       font-size: 32px;
-      font-family: "Circe-ExtraBold"; }
+      font-family: "Circe-ExtraBold";
+      line-height: 1; }
   .sell-txt {
     display: none; }
     .sell-txt p {
@@ -1712,7 +1713,7 @@ footer {
   .column-wrapper {
     max-width: 450px; }
   .course-txt {
-    bottom: 30px; }
+    bottom: 50px; }
     .course-txt h2 {
       font-size: 30px; }
     .course-txt span {
