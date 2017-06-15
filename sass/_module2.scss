@@ -465,10 +465,10 @@
 }
 
 .underscoring_url {
+	// display: inline-block;
 	text-decoration: none;
 	color:black;
 	border-bottom: 2px solid #e31d1a;
-	// display: inline-block;
 	line-height: 20px;
 }
 .ext-bold {
@@ -670,6 +670,11 @@
 // 
 
 @media screen and (max-width: 959px) { // 620px mxw
+	.examples {
+		img {
+			padding-right: 25px;
+		}
+	}
 	.left-block {
 		&.center-mod { 
 			padding-right: 25px;
@@ -822,6 +827,11 @@
 // 		font-size: 24px;
 // 	}
 // }
+	.examples {
+		img {
+			padding-right: 15px;
+		}
+	}
 .example-item {
 	width: 200px;
 }
@@ -886,7 +896,7 @@
 		height: 320px;
 		margin: 0 0 20px 0;
 	}
- }
+}
 }
 
 @media screen and (max-width: 500px) {

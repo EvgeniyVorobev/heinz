@@ -88,7 +88,9 @@ li {
 	max-width:1200px;
 	display: flex;
 }
-
+a,button {
+	cursor:pointer;
+}
 .nav-menu {
 	display:flex;
 	flex-wrap: wrap;
@@ -332,8 +334,10 @@ footer {
 	}
 	.subscribe {
 		a:last-child {
-			font-family: $font-family-4 !important;
 			border-bottom: 2px solid #e31d1a;
+		}
+		li {
+			font-size: 14px;
 		}
 		strong {
 			border-bottom: 2px solid #e31d1a;

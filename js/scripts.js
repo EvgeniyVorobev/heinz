@@ -27,7 +27,7 @@ $(document).ready(function(){ // Add Modal Windows.
 		<a class="google"><img src="img/googleplus-modal.png" alt="">Войти через Google +</a>
 		<a class="twitter"><img src="img/twitterlogosilhouette-modal.png" alt="">Войти через Twitter</a>
 		</div>
-		<p class="termsofuse">Авторизуясь, вы принимаете условия <a href="">Пользовательского соглашения</a> и <a href="">Политики конфиденциальности.</a></p>
+		<p class="termsofuse">Оставляя свои контактные данные, вы даете <a target="_blank" href="http://school.locallocal.ru/terms">согласие</a> на обработку персональных данных</p>
 		</div>
 		</div>
 		</div>
@@ -79,7 +79,7 @@ $(document).ready(function(){ // Add Modal Windows.
 		<button type="submit">ПОДПИСАТЬСЯ</button>
 		</form>
 		</div>
-		<p style="font-family: 'Playfair-Bold-Italic'" class="pt5 text-center">Ваши данные не будут переданы третьим лицам</p>
+		<p class="termsofuse">Оставляя свои контактные данные, вы даете <a target="_blank" href="http://school.locallocal.ru/terms">согласие</a> на обработку персональных данных</p>
 		</div>
 		</div>
 		</div>
@@ -101,7 +101,7 @@ $(document).ready(function(){ // Add Modal Windows.
 		<button type="submit">ПОДПИСАТЬСЯ</button>
 		</form>
 		</div>
-		<p style="font-family: 'Playfair-Bold-Italic'" class="pt5 text-center">Ваши данные не будут переданы третьим лицам</p>
+		<p class="termsofuse">Оставляя свои контактные данные, вы даете <a target="_blank" href="http://school.locallocal.ru/terms">согласие</a> на обработку персональных данных</p>
 		</div>
 		</div>
 		</div>
@@ -136,3 +136,23 @@ function burgerPopup(){$('#burger_popup').arcticmodal();}; // Modal for Burger (
 function subscribePopup(){$('#subscribe_popup').arcticmodal();}; // Modal for subscribe footer-popup
 function subscribeCofePopup(){$('#opencofee_popup').arcticmodal();}; // Modal for cofee Subscribe
 // ** End Modal Windows.
+
+// Resize-click-image script
+$(document).ready(function() { // Ждём загрузки страницы
+	$(".image").click(function(){	// Событие клика на маленькое изображение
+	  var img = $(this);	// Получаем изображение, на которое кликнули
+		var src = img.attr('src'); // Достаем из этого изображения путь до картинки
+		$("body").append("<div class='popup-img-wrapper'>"+ //Добавляем в тело документа разметку всплывающего окна
+						 "<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
+						 "<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
+						 "</div>"); 
+		$(".popup-img-wrapper").fadeIn(800); // Медленно выводим изображение
+		$(".popup-img-wrapper").click(function(){	// Событие клика на затемненный фон	   
+			$(".popup-img-wrapper").fadeOut(800);	// Медленно убираем всплывающее окно
+			setTimeout(function() {	// Выставляем таймер
+			  $(".popup-img-wrapper").remove(); // Удаляем разметку всплывающего окна
+			}, 800);
+		});
+	});
+});
+// End Resize script

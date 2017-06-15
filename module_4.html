@@ -3,9 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-	<title>Модуль 4</title>
+	<meta name="description" content="Мы подготовили для вас список вдохновляющих книг, которые помогут вам подробнее разобраться в маркетинге и бизнесе, прокачать свои предпринимательские навыки и повысить мотивацию."> 
+	<title>Список полезной литературы — Онлайн-курс «Как начать свое дело» Школы гастрономического бизнеса</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/modals.css">
 </head>
 
 <body>
@@ -128,7 +131,7 @@
 				<div class="text-wrap wrap-large mt50">
 					<div class="text-column">
 						<div class="text-column-left maw860 mr">
-							<p>Это книга о бизнес-этике, расстановке приоритетов и формулирования целей в бизнесе. Конечно, одной из основных целей в бизнесе всегда был и до сих пор остается рост прибыли. Но это далеко не единственная его цель, и, может быть, даже не главная. Автор, известный бизнес-журналист, рассказывает в этой книге о нескольких компаниях, которые прекратили гонку за бесконечным ростом прибыли, чтобы стать действительно лучшими в своем деле. Эта книжка поможет вам разобраться с приоритетами, правильно сформулировать как собственные цели, так и цели своей будущей компании.Нам всем свойственно думать, что чем крупнее компания — тем она круче, перестать следовать этому заблуждению очень важно. Эта книга всем нам, владельцам малого и микробизнеса, меняющим мир вокруг, в помощь. </p>
+							<p>Это книга о бизнес-этике, расстановке приоритетов и формулирования целей в бизнесе. Конечно, одной из основных целей в бизнесе всегда был и до сих пор остается рост прибыли. Но это далеко не единственная его цель, и, может быть, даже не главная. Автор, известный бизнес-журналист, рассказывает в этой книге о нескольких компаниях, которые прекратили гонку за бесконечным ростом прибыли, чтобы стать действительно лучшими в своем деле. Эта книжка поможет вам разобраться с приоритетами, правильно сформулировать как собственные цели, так и цели своей будущей компании. Нам всем свойственно думать, что чем крупнее компания — тем она круче, перестать следовать этому заблуждению очень важно. Эта книга всем нам, владельцам малого и микробизнеса, меняющим мир вокруг, в помощь.</p>
 						</div>
 						<div class="text-column-right maw160 imgadded ml">
 							<div class="item">
@@ -196,7 +199,7 @@
 											<textarea name="comment" placeholder="Оставьте ваш отзыв!" id="" cols="30" rows="10"></textarea>
 											<button type="submit" >Отправить</button>
 										</form>
-										<p class="pt15">Введённые данные не будут переданы третьим лицам</p>
+										<p style="font-family: 'Playfair-Bold-Italic'" class="pt15 text-center">Оставляя свои контактные данные, вы даете <a target="_blank" style="font-family: 'Playfair-Bold-Italic'" class="underscoring_url" href="http://school.locallocal.ru/terms">согласие</a> на обработку персональных данных</p>
 									</div>
 								</div>
 							</section>
@@ -213,10 +216,10 @@
 										<div class="made-by">	© 2017  <a target="_blank" href="http://locallocal.ru/"><span>Местная Еда</span></a><br>Разработано <a target="_blank" href="http://svoemedia.ru/"><span>SVOEMEDIA</span></a></div>
 									</div>
 									<div class="column subscribe">
-										<a target="_blank" href="#"><strong>ПОДПИСАТЬСЯ</strong></a>
+										<a onclick="subscribePopup()" target="_blank"><strong>ПОДПИСАТЬСЯ</strong></a>
 										<ul>
 											<li>
-												<a target="_blank" href="">ЕСТЬ ВОПРОС?</a>
+												<a target="_blank" href="http://school.locallocal.ru/privacy">Политика обработки</a> персональных данных.
 											</li>
 										</ul>
 									</div>
@@ -245,6 +248,7 @@
 									</div>
 								</div>
 								<script src="js/jquery-3.2.1.min.js"></script>
+								<script src="js/jquery.arcticmodal-0.3.min.js"></script>
 								<script src="js/wow.min.js"></script>
 								<script src="js/scripts.js"></script>
 							</footer>

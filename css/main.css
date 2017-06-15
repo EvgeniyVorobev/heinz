@@ -85,6 +85,8 @@
     height: 380px; } }
 
 @media screen and (max-width: 959px) {
+  .course-txt h2, .course-txt br {
+    line-height: 1.2; }
   .text-visibility-off {
     display: none; }
   .text-visibility-on {
@@ -126,6 +128,8 @@
     bottom: 70px; }
     .course-txt.pos-center h2 {
       font-size: 24px; }
+    .course-txt.pos-center h2, .course-txt.pos-center br {
+      line-height: 1.4; }
   .text-visibility-on p {
     padding: 25px 12px 25px 12px !important;
     margin-bottom: 0px !important; }
@@ -815,6 +819,8 @@
       max-width: 200px; } }
 
 @media screen and (max-width: 959px) {
+  .examples img {
+    padding-right: 25px; }
   .left-block.center-mod {
     padding-right: 25px; }
   .circle {
@@ -905,6 +911,8 @@
     max-width: 600px; } }
 
 @media screen and (max-width: 639px) {
+  .examples img {
+    padding-right: 15px; }
   .example-item {
     width: 200px; }
   .note-wrap .note {
@@ -1120,6 +1128,7 @@ div.juxtapose {
   .table {
     max-width: 600px; }
   .table-wrapper {
+    display: none;
     overflow-x: scroll;
     border-radius: 0px; }
     .table-wrapper .table-row {
@@ -1303,6 +1312,9 @@ li {
   height: 40px;
   max-width: 1200px;
   display: flex; }
+
+a, button {
+  cursor: pointer; }
 
 .nav-menu {
   display: flex;
@@ -1501,8 +1513,9 @@ footer {
   .column-wrapper .about-project a, .column-wrapper .eat a {
     border-bottom: 2px solid #e31d1a; }
   .column-wrapper .subscribe a:last-child {
-    font-family: "Circe-ExtraBold" !important;
     border-bottom: 2px solid #e31d1a; }
+  .column-wrapper .subscribe li {
+    font-size: 14px; }
   .column-wrapper .subscribe strong {
     border-bottom: 2px solid #e31d1a; }
   .column-wrapper .column {

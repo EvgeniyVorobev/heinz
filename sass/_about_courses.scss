@@ -72,6 +72,11 @@
 
 
 @media screen and (max-width: 959px) { // 620px mxw
+	.course-txt {
+		h2,br {
+			line-height: 1.2;
+		}
+	}
 	.text-visibility-off {
 		display:none;
 	}
@@ -140,6 +145,9 @@
 		bottom:70px;
 		h2 {
 			font-size: 24px;
+		}
+		h2,br {
+			line-height: 1.4;
 		}
 	}
 		.text-visibility-on {

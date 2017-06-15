@@ -92,7 +92,7 @@
 		}
 		&.termsofuse {
 			padding-left: 5px;
-			padding-top: 15px;
+			padding-top: 5px;
 			font-size: 14px;
 			text-align: center;
 			opacity: 0.8;
@@ -278,6 +278,7 @@
 		p {
 			&:last-child {
 				font-size: 12px;
+				padding-left: 0px;
 				&.f-size {
 					font-size: 12px;
 				}
